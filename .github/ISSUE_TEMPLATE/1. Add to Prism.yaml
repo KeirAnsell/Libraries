@@ -1,7 +1,7 @@
 name: Add to Prism
 description: Submit a request to have something added to the Prism Libraries
 title: "[Add]: "
-labels: 'Add'
+labels: "Add"
 assignees:
   - KeirAnsell
 body:
