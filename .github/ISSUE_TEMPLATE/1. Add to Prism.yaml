@@ -7,7 +7,7 @@ assignees:
 body:
   - type: markdown
     attributes:
-      value: "##Please select the relevant platform for your request by selecting the relevant label on the right.**"
+      value: "**Please select the relevant platform for your request by selecting the relevant label on the right.**"
   - type: markdown
     attributes:
        value: "If necessary, select the High Priority label and requests marked as such will take a priority over others."
