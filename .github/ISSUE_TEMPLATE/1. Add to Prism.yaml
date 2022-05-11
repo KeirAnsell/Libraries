@@ -1,62 +1,66 @@
-name: Bug Report
-description: File a bug report
-title: "[Bug]: "
-labels: ["bug", "triage"]
+name: Add to Prism
+description: Submit a request to have something added to the Prism Libraries
+title: "[Add]: "
+labels: ["Add"]
 assignees:
-  - octocat
+  - KeirAnsell
 body:
-  - type: markdown
+  - type: textarea
+    id: summary
     attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report!
-  - type: input
-    id: contact
+      label: Summary
+      description: A clear description of what you would like added to the Prism Libraries and why/an example use case.
+      placeholder: 
+    validations:
+      required: true
+  - type: textarea
+    id: screenshot
     attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
+      label: Screenshot
+      description: Please include a screenshot of the component or components that you are submitting.
+      placeholder: Click the field before dragging the screenshot in.
     validations:
       required: false
   - type: textarea
-    id: what-happened
+    id: attachments
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
+      label: Attachments
+      description: Please include either a zipped Sketch document, or a link to a Sketch Document containing the component(s) that you are submitting..
+      placeholder: Click the field before dragging a file in.
+    validations:
+      required: false
+  - type: dropdown
+    id: live
+    attributes:
+      label: Is this change live?
+      description: Is this addition live in our apps yet?
+      options:
+        - Yes
+        - No
     validations:
       required: true
   - type: dropdown
     id: version
     attributes:
-      label: Version
-      description: What version of our software are you running?
+      label: If not...
+      description: which version will this go live with?
+      multiple: false
       options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
-    validations:
-      required: true
-  - type: dropdown
-    id: browsers
-    attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 94
+        - 95
+        - 96
+        - 97
+        - 98
+        - 99
+        - 100
   - type: textarea
-    id: logs
+    id: notes
     attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
+      label: Notes
+      description: Include any other relevant information about the request here.
