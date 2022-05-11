@@ -35,8 +35,8 @@ body:
       label: Is this change live?
       description: Is this addition live in our apps yet?
       options:
-        - Yes
-        - No
+        - 'Yes'
+        - 'No'
     validations:
       required: true
   - type: dropdown
