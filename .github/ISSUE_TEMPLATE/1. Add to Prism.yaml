@@ -6,7 +6,7 @@ assignees:
   - KeirAnsell
 body:
   -type: markdown
-   value: "## Please select the relevant platform for your request by selecting the relevant label on the right."
+   value: "## Please select the relevant platform for your request by selecting the relevant label on the right.|If necessary, select the High Priority label and requests marked as such will take a priority over others."
   
   - type: textarea
     id: summary
