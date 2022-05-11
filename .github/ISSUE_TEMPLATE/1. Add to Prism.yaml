@@ -7,14 +7,14 @@ assignees:
 body:
   - type: markdown
     attributes:
-      value: "### ⚠️ Please select the relevant platform for your request by selecting the relevant label on the right. ⚠️"
+      value: "### ⚠️ Please select the relevant platform for your request by selecting the relevant label on the right."
   - type: markdown
     attributes:
        value: "If necessary, select the High Priority label and requests marked as such will take a priority over others."
   - type: textarea
     id: summary
     attributes:
-      label: Summary
+      label: 🗒️ Summary
       description: A clear description of what you would like added to the Prism Libraries and why/an example use case.
       placeholder: 
     validations:
@@ -22,7 +22,7 @@ body:
   - type: textarea
     id: screenshot
     attributes:
-      label: Screenshot
+      label: 🖼️ Screenshot
       description: Please include a screenshot of the component or components that you are submitting.
       placeholder: Click the field before dragging the screenshot in.
     validations:
@@ -30,7 +30,7 @@ body:
   - type: textarea
     id: attachments
     attributes:
-      label: Attachments
+      label: 📎 Attachments
       description: Please include either a zipped Sketch document, or a link to a Sketch Document containing the component(s) that you are submitting..
       placeholder: Click the field before dragging a file in.
     validations:
@@ -38,7 +38,7 @@ body:
   - type: dropdown
     id: live
     attributes:
-      label: Is this change live?
+      label: 🌐 Is this change live?
       description: Is this addition live in our apps yet?
       options:
         - 'Yes'
@@ -48,7 +48,7 @@ body:
   - type: dropdown
     id: version
     attributes:
-      label: If not...
+      label: 🔢 If not...
       description: which version will this go live with?
       multiple: false
       options:
