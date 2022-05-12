@@ -1,0 +1,44 @@
+name: Add Icons to Prism
+description: If a new icon or icons have been designed, use this template to request to have them added to the Prism Icons Library.
+title: "[Icons]: "
+labels: "Icons"
+assignees:
+  - KeirAnsell
+  - prekesh
+  - kinaj
+body:
+  - type: markdown
+    attributes:
+      value: "### ⚠️ Please select the relevant platform for your request by selecting the relevant label on the right."
+  - type: markdown
+    attributes:
+       value: "If necessary, select the High Priority label and requests marked as such will take a priority over others."
+  - type: textarea
+    id: summary
+    attributes:
+      label: 🗒️ Summary
+      description: Please briefly describe what the icon(s) is for and where it would be used.
+      placeholder: 
+    validations:
+      required: true
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: 🖼️ Screenshot
+      description: Please include a screenshot of the icon(s). This can help make it easier to make sure the correct icons are added if they are in a document with a number of other icons.
+      placeholder: Click the field before dragging the screenshot in.
+    validations:
+      required: false
+  - type: textarea
+    id: attachments
+    attributes:
+      label: 📎 Attachments
+      description: Please include either a zipped Sketch document, or a link to a Sketch Document containing the icon(s) that you are submitting..
+      placeholder: Click the field before dragging a file in.
+    validations:
+      required: false
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Include any other relevant information about the request here.
