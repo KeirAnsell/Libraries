@@ -1,7 +1,6 @@
 name: Update Copy
 description: Submit a request to update some Copy in our Libraries.
 title: "[Copy]: "
-labels: ""
 assignees:
   - KeirAnsell
 body:
