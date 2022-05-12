@@ -1,0 +1,43 @@
+name: Update Copy
+description: Submit a request to update some Copy in our Libraries.
+title: "[Copy]: "
+labels: ""
+assignees:
+  - KeirAnsell
+body:
+  - type: markdown
+    attributes:
+      value: "### ⚠️ Please select the relevant platform for your request by selecting the relevant label on the right."
+  - type: markdown
+    attributes:
+      value: "### ⚠️ Also please select the `New Copy` or `Update Copy` Label."
+  - type: markdown
+    attributes:
+       value: "If necessary, select the High Priority label and requests marked as such will take a priority over others."
+  - type: textarea
+    id: summary
+    attributes:
+      label: 🗒️ Summary
+      description: Please provide a brief overview of what and why, where relevant.
+      placeholder: 
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: ⌨️ Current Copy
+      description: Please detail the current copy alongside screenshot(s) of it in context.
+    validations:
+      required: false
+  - type: textarea
+    id: updated
+    attributes:
+      label: ⌨️ Updated Copy
+      description: Please detail the copy that it should be replaced with.
+    validations:
+      required: false
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Include any other relevant information about the request here.
