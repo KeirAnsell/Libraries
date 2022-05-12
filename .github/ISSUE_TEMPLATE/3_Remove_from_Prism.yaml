@@ -1,0 +1,34 @@
+name: Remove from Prism
+description: Submit a request to have something removed from a Prism Library.
+title: "[Remove]: "
+labels: "Remove"
+assignees:
+  - KeirAnsell
+body:
+  - type: markdown
+    attributes:
+      value: "### ⚠️ Please select the relevant platform for your request by selecting the relevant label on the right."
+  - type: markdown
+    attributes:
+       value: "If necessary, select the High Priority label and requests marked as such will take a priority over others."
+  - type: textarea
+    id: summary
+    attributes:
+      label: 🗒️ Summary
+      description: A ckear descruotuib if what you would like removed from a Prism Library and why/an example use case.|Also include any information related to affects that this removal may have (for example, if you are requesting the removal of a Symbol and you are aware that instances of that Symbol are nested within other Symbols, please provide whatever information on this that you can).
+      placeholder: 
+    validations:
+      required: true
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: 🖼️ Screenshot
+      description: Please include a before and after screenshot of the modified component where applicable.
+      placeholder: Click the field before dragging the screenshot in.
+    validations:
+      required: false
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Include any other relevant information about the request here.
