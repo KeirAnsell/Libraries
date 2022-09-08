@@ -1,0 +1,53 @@
+name: 🖥️ macOS UI Library
+description: Submit an issue relating to the macOS UI Library
+title: ""
+labels: "macOS UI Library", "Issue"
+assignees:
+  - KeirAnsell
+body:
+  - type: markdown
+    attributes:
+      value: "### ℹ️ Please complete and submit the following form to file an issue."
+  - type: textarea
+    id: summary
+    attributes:
+      label: 🗒️ Summary
+      description: A clear description of the issue that you are reporting.
+      placeholder: 
+    validations:
+      required: true
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: 🖼️ Screenshot
+      description: Please include a screenshot of the component or components that you have found an issue with.
+      placeholder: Click the field before dragging the screenshot in.
+    validations:
+      required: false
+  - type: textarea
+    id: attachments
+    attributes:
+      label: 📎 Attachments
+      description: Please include either a zipped Sketch document, or a link to a Sketch Document containing the component(s) that you are submitting..
+      placeholder: Click the field before dragging a file in.
+    validations:
+      required: false
+  - type: dropdown
+    id: sketchversion
+    attributes:
+      label: 🔢 Which version of Sketch are you using?
+      description: which version will this go live with?
+      multiple: false
+      options:
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - Other (Please detail in the Notes field below)
+  - type: textarea
+    id: notes
+    attributes:
+      label: 📝 Notes
+      description: Include any other relevant information about the issue here.
