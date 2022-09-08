@@ -27,7 +27,7 @@ body:
     id: attachments
     attributes:
       label: 📎 Attachments
-      description: Please include either a zipped Sketch document, or a link to a Sketch Document containing the component(s) that you are submitting..
+      description: If you need to attach anything else, please zip it and drop it here.
       placeholder: Click the field before dragging a file in.
     validations:
       required: false
