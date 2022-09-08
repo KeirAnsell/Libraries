@@ -1,6 +1,6 @@
-name: macOS UI Library
+name: 🖥️ macOS UI Library
 description: Submit an issue relating to the macOS UI Library
-labels: "macOS UI Library", "Issue"
+labels: "macOS UI Library, Issue"
 assignees:
   - KeirAnsell
 body:
